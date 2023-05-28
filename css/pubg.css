@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@200&family=Poppins:ital,wght@0,300;0,500;1,300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@200&family=Poppins:ital,wght@0,300;0,500;1,300&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Montserrat';
+font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 36px 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    max-width: 443px;
+    padding: 12px 16px;
+    gap: 300px;
+    border: 1px solid #CCCCCC;
+border-radius: 8px;
+background: #fff;
+}
+.btn .p-1 {
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #808080;
+}
+.btn img {
+    align-items: end;
+}
+
+.p-1 {
+    font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+color: #1C3554;
+}
+.p-2 {
+    font-size: 16px;
+line-height: 32px;
+color: #1C3554;
+font-weight: 700;
+}
+.btn1 {
+background: #fff;
+border: 2px solid #ac9b9b;
+border-radius: 8px;
+padding: 8px 30px;
+}
+.btn1 .p-1 {
+    font-size: 16px;
+line-height: 32px;
+font-weight: 200;
+color: #1C3554;
+}
+
+.btn1:hover,
+.btn1 .p-1:hover {
+    background: #F72585;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.first-content {
+    padding: 60px 104px;
+}
+
+/* ////////////////////////////// */
+.first {
+    background: #000000;
+opacity: 0.5;
+}
+
+.first-content {
+    display: block;
+    }
+    
+    .first-content .menu {
+    display: flex;
+    }
+    .first-content .menu .p-1 {
+        font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    }
+    .first-content .menu .p-2 {
+        font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    }
+    .first .first-content .menu img  {
+    
+    }
+    .first .first-content .p1 {
+        padding-top: 24px;
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FFFFFF;
+    padding-bottom: 24px;
+    }
+
+    .rasm {
+        display: flex;
+    }
+
+    .rasm .p11 {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+padding-bottom: 30px;
+    }
+
+.butt button {
+    width: 226px;
+height: 56px;
+    background: #FFF5F9;
+border-radius: 8px;
+}
+.butt button .p-1 {
+    font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    line-height: 32px;
+    color: #F72585;
+    border: 2px #F72585;
+}
+.butt button:hover {
+    background: #F72585;
+}
+.butt button .p-1:hover {
+    font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+/* ////////////////////////////// */
+.third-content {
+    padding: 60px 104px;
+}
+.third-content .p-1 {
+    padding-top: 100px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+text-transform: capitalize;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #1C3554;
+padding-bottom: 80px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.third-content .card button {
+   margin-top: -20px;
+   margin-left: 80px;
+    background: #4586D6;
+border-radius: 8px;
+border: 2px solid #4586D6;
+}
+.third-content .card button .p-1 {
+    padding: 4px 10px;
+    font-family: 'Montserrat SemiBold';
+font-size: 12px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.third-content .card .pa {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #1C3554;
+}
+
+.third-content .card .p-2 {
+    font-family: 'Montserrat SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+color: #F72585;
+}
+.third-content .card .p-3 {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #1C3554;
+}
+
+
+
+
+/* /////////////////////////////////////////// */
+
+footer {
+    padding: 40px 40px;
+}
+
+.footter-content {
+    padding: 80px 68px;
+    background: #021934;
+border-radius: 8px;
+display: flex;
+justify-content: space-around;
+}
+
+footer .footter-content .one .p-1 {
+    padding-top: 20px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #FFFFFF;
+}
+.end .p-1 {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.footter-content .p-2 {
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-weight: 200;
+    display: block;
+    margin-bottom: 15px;
+  }
